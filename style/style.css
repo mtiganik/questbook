@@ -1,0 +1,45 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+#headerBG{position:absolute;left:50%;right:50%;margin-left:-100px;top:10px;max-width:200px;z-index:-2;}
+#header{left:50%;right:50%;position:relative;width:300px;margin-left:-150px;top:20px;margin-top:0px;color:#E0E0E0;text-align:center;margin-bottom:80px;}
+#menu{position:absolute;left:50%;right:50%;margin-left:-500px;box-shadow:0px 0px 30px #FF8000;background-color:#FF8000;border-radius:5px; max-width:200px;top:150px;}
+#menu li{margin-top:10px;}
+.list {font-family:Arial;font-weight:bold;}
+.list:hover{border:2px solid;background-color:#66CC00;border-radius:3px;padding:2px;}
+
+.main{border:2px solid #C0C0C0; left:50%;right:50%;margin-left:-250px;position:relative;background-color:#FFCCCC;width:600px;margin-bottom:10px; padding:15px;}
+.veebilehetabel td{padding:10px;padding-right:0px;} 
+.error{color:red; font-weight:bold;}
+#passwarning {font-size:10px;}
+.list a{text-decoration:none;color:default;}
+.frontpage table {padding:5px; margin:5px;}
+.name {font-weight:bold;size:20px;}
+#big{position:fixed; left:50%;right:50%;width:90%;margin-left:-45%;border:2px solid;top:10%;height:80%;}
+.bigPic {width:70%;height:80%;position:fixed;}
+.bigPic img{max-width:80%; max-height:110%;}
+.container{position:fixed;right:5%;max-width:35%;min-width:25%;}
+.header{text-align:right;}
+.header:hover{font-weight:bold;color:purple;font-size:20px;}
+.user{font-size:40px; color:blue;}
+#big .name{margin:3px;font-size:35px;color:#606060;}
+#big{background-color:white;}
+#big .description{border:1px solid #E0E0E0; padding:3px; border-radius:4px;  margin:5px; margin-right:20px;}
+#big .score{margin-top:3px; font-size:30px; color:#A0A0A0;}
+#big .scorecomment{font-size:15px; color:#A0A0A0;}
+.comments{background-color:#33FFFF;border-color:#33FFFF;border-radius:3px; box-shadow:0 0 10px #33FFFF; margin-right:15px;}
+#big .author{text-decoration:underline; font-weight:bold; font-size:25px; color:#000099;}
+#big .commentDate{bottom:0px; right:0px; text-align:right;color:#A0A0A0;font-size:15px;}
+
+
+<code>ul{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+  border-top:1px solid #ccc;
+}
+#double li{
+  line-height:1.5em;
+  border-bottom:1px solid #ccc;
+  float:left;
+  display:inline;
+}
+#double li  { width:50%;}

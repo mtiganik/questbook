@@ -31,14 +31,15 @@ if($conn->query($sql)===TRUE){echo "Data saved succesfully";
 
 /*
 //mysql --user=st2014 --password=progress st2014 
+
 //Eelmalda lopukomentaarid!
 
 "create table user(
 username VARCHAR(30),
 email VARCHAR(40),
 ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-password VARCHAR(20), -- password on meil lahtiselt, mis päris rakenduses ei sobiks
-PRIMARY KEY (username))"; // username on nüüd alati unikaalne, kahte rida sama usernamega baas ei luba
+password VARCHAR(20), -- password on meil lahtiselt, mis pï¿½ris rakenduses ei sobiks
+PRIMARY KEY (username))"; // username on nï¿½ï¿½d alati unikaalne, kahte rida sama usernamega baas ei luba
 
 -- see on fotode jaoks
 "create table photos(
